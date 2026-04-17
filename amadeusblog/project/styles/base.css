@@ -1,0 +1,88 @@
+/* =========================
+   RESET
+========================= */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* =========================
+   ROOT DESIGN TOKEN
+========================= */
+:root {
+  --color-bg: #f8f9fa;
+  --color-text: #222;
+  --color-muted: #6c757d;
+
+  --font-main: "Inter", sans-serif;
+
+  --container-width: 1200px;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+
+  --transition: 0.2s ease;
+}
+
+/* =========================
+   BODY
+========================= */
+body {
+  font-family: var(--font-main);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+/* =========================
+   TYPOGRAPHY
+========================= */
+.thin {
+  font-weight: 200;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+/* =========================
+   MEDIA
+========================= */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* =========================
+   LINK
+========================= */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =========================
+   LIST
+========================= */
+ul {
+  list-style: none;
+}
+
+/* =========================
+   FONT FACE (optional local)
+========================= */
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Light.woff2") format("woff2");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
