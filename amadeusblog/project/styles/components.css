@@ -1,0 +1,370 @@
+/* HEADER */
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(8px);
+  z-index: 100;
+}
+
+.nav {
+  height: 80px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 32px;
+  color: white;
+  font-weight: 500;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+}
+
+/* =========================
+   LIFE LATELY SPACING
+========================= */
+.section-life {
+  margin-bottom: 80px; /* Jarak ke bawah */
+}
+
+/* =========================
+   HERO BASE
+========================= */
+.hero {
+  position: relative;
+  display: flex;
+  color: white;
+
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* =========================
+   HERO CONTENT
+========================= */
+.hero-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+/* =========================
+   HERO HOME (LANDING)
+========================= */
+.hero-home {
+  height: 100vh;
+  align-items: flex-end; /* 🔥 nempel bawah */
+}
+
+.hero-home .hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+
+  padding-bottom: 60px;
+}
+
+/* LEFT */
+.hero-left {
+  max-width: 500px;
+}
+
+.hero-title {
+  font-size: 64px;
+  line-height: 1.05;
+}
+
+.hero-title .thin {
+  font-weight: 200;
+}
+
+.hero-title .boldd {
+  font-weight: 300;
+}
+
+/* RIGHT */
+.hero-right {
+  display: flex;
+  align-items: center;
+}
+
+.hero-right p {
+  font-size: 12px;
+  line-height: 1.6;
+  max-width: 556px;
+}
+
+/* =========================
+   HERO BLOG (ARTICLE)
+========================= */
+.hero-blog {
+  min-height: 450px;
+  align-items: center;
+}
+
+.hero-blog .hero-content {
+  text-align: center;
+  max-width: 700px;
+}
+
+/* BLOG TEXT */
+.hero-desc {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 16px;
+  color: #e5e5e5;
+}
+
+.hero-author {
+  margin-top: 16px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.logo img {
+  height: 40px; /* sesuaikan dengan header height */
+  width: auto;
+  object-fit: contain;
+}
+
+/* ABOUT */
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .about {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* CARD */
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card img {
+  height: 270px;
+  width: 260px;
+  object-fit: cover;
+}
+
+.card-meta {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card-desc {
+  font-size: 12px;
+  color: #6c757d;
+}
+
+/* FOOTER */
+.footer {
+  background: #000000;
+  color: white;
+  padding: 60px 0;
+}
+
+.footer h3 {
+  margin-bottom: 12px;
+}
+
+/* FILMING SECTION */
+/* CONTAINER */
+.filming {
+  margin-top: 40px;
+  position: relative;
+  height: 800px;
+  overflow: hidden;
+
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center; /* vertical center  */
+}
+/* VIDEO WRAPPER */
+.filming-video {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+/* VIDEO SCALE (biar cover kayak background) */
+.filming-video iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none; /* biar ga bisa diklik */
+}
+
+/* OVERLAY */
+.filming-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+/* CONTENT */
+.filming-content {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  color: #e5e5e5;
+  max-width: 700px;
+}
+
+/* TITLE */
+.filming-title {
+  font-size: 64px;
+  margin-bottom: 12px;
+  line-height: 1.1;
+}
+
+/* DESC */
+.filming-desc {
+  font-size: 12px;
+  line-height: 1.6;
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 12px;
+  color: #e5e5e5;
+}
+
+/* YOUTUBE BUTTON */
+.filming-yt {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  z-index: 4;
+}
+
+.filming-yt img {
+  width: 60px;
+}
+
+@media (max-width: 768px) {
+  .filming-video {
+    display: none;
+  }
+
+  .filming {
+    background-image: url("../../assets/images/yt.png");
+    background-size: cover;
+  }
+}
+
+/* SOCIAL ICON */
+.social-list {
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+/* ICON SIZE */
+.social-list img {
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+/* LOGO */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
+}
+
+/* HOVER EFFECT */
+.logo:hover img {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+/* =========================
+   ARTICLE PAGE
+========================= */
+
+.article {
+  margin: 0 auto;
+}
+
+/* DATE */
+.article-meta {
+  font-size: 12px;
+  color: #999;
+  margin-bottom: 12px;
+}
+
+/* TITLE */
+.article-title {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.3;
+  margin-bottom: 24px;
+}
+
+/* PARAGRAPH */
+.article-text {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+/* IMAGE (FIX SIZE) */
+.article-image {
+  width: 100%;
+  height: 350px; /* 🔥 sesuai request */
+  object-fit: cover; /* crop rapi */
+  margin: 40px 0;
+}
+
+/* QUOTE */
+.article-quote {
+  font-size: 20px;
+  font-style: italic;
+  margin: 40px 0;
+  color: #333;
+}
+
+/* CARD TITLE (REFINED TYPOGRAPHY) */
+.card-title-light {
+  font-weight: 350; /* 🔥 lebih ringan dari bold */
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+  color: #222;
+}

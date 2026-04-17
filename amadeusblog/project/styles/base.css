@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f8f9fa;
+  line-height: 1.6;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 200; /* default thin */
+}
+
+/* GLOBAL TYPOGRAPHY SYSTEM */
+.thin {
+  font-weight: 200;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.card-title {
+  font-weight: 400;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../../assets/fonts/Inter-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}

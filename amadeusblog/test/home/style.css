@@ -1,0 +1,699 @@
+.home {
+  background-color: #f8f9fa;
+  overflow: hidden;
+  width: 100%;
+  min-width: 1440px;
+  min-height: 3065px;
+  position: relative;
+}
+
+.home .filming {
+  position: absolute;
+  top: 1859px;
+  left: -47px;
+  width: 1541px;
+  height: 832px;
+}
+
+.home .img-film {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1541px;
+  height: 832px;
+}
+
+.home .screenshot {
+  position: absolute;
+  top: 0;
+  left: 47px;
+  width: 1440px;
+  height: 832px;
+  aspect-ratio: 1.85;
+}
+
+.home .rectangle {
+  position: absolute;
+  top: 0;
+  left: 47px;
+  width: 1440px;
+  height: 832px;
+  background-color: #00000066;
+}
+
+.home .group {
+  position: absolute;
+  top: 325px;
+  left: 323px;
+  width: 891px;
+  height: 182px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.home .filming-life {
+  margin-left: 229px;
+  width: 468px;
+  height: 100px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: -4.8px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper {
+  font-weight: 500;
+  letter-spacing: -4.61px;
+}
+
+.home .span {
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  letter-spacing: -4.61px;
+}
+
+.home .div {
+  width: 887px;
+  height: 60px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #e5e5e5;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: -0.6px;
+  line-height: 20px;
+}
+
+.home .yt-logo {
+  position: absolute;
+  top: 704px;
+  left: 1253px;
+  width: 83px;
+  height: 56px;
+  aspect-ratio: 1.49;
+  object-fit: cover;
+}
+
+.home .blog-group {
+  position: absolute;
+  width: 1129px;
+  height: 601px;
+  top: 1185px;
+  left: 150px;
+}
+
+.home .group-2 {
+  position: absolute;
+  width: 1129px;
+  height: 501px;
+  top: 100px;
+  left: 0;
+  display: flex;
+}
+
+.home .blog {
+  width: 275.22px;
+  height: 501px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home .category {
+  display: inline-flex;
+  align-self: flex-end;
+  margin-right: 23.4px;
+  width: 77px;
+  height: 24px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 6px 10px;
+  background-color: #ffffff33;
+  border-radius: 8px;
+}
+
+.home .text-wrapper-2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 10px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .image {
+  width: 269.22px;
+  height: 280px;
+  margin-top: 27px;
+  object-fit: cover;
+}
+
+.home .text-wrapper-3 {
+  display: flex;
+  align-items: center;
+  width: 57px;
+  height: 15px;
+  margin-top: 23px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #6c757d;
+  font-size: 12px;
+  letter-spacing: -0.6px;
+  line-height: normal;
+}
+
+.home .dream-destinations {
+  width: 239px;
+  height: 50px;
+  margin-top: 7px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #495057;
+  font-size: 18px;
+  letter-spacing: -0.9px;
+  line-height: 25px;
+}
+
+.home .p {
+  width: 269px;
+  height: 60px;
+  margin-top: 15px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #6c757d;
+  font-size: 12px;
+  letter-spacing: -0.6px;
+  line-height: 20px;
+}
+
+.home .blog-2 {
+  margin-top: 51px;
+  width: 275.41px;
+  height: 450px;
+  margin-left: 11.4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home .blog-image {
+  width: 269.22px;
+  height: 280px;
+  object-fit: cover;
+}
+
+.home .text-wrapper-4 {
+  margin-left: 0.4px;
+  width: 269px;
+  height: 60px;
+  margin-top: 15px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #6c757d;
+  font-size: 12px;
+  letter-spacing: -0.6px;
+  line-height: 20px;
+}
+
+.home .blog-3 {
+  margin-top: 51px;
+  width: 275.41px;
+  height: 450px;
+  margin-left: 11px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home .img {
+  margin-left: 0.2px;
+  width: 269.22px;
+  height: 280px;
+}
+
+.home .text-wrapper-5 {
+  margin-left: 0.2px;
+  display: flex;
+  align-items: center;
+  width: 57px;
+  height: 15px;
+  margin-top: 23px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #6c757d;
+  font-size: 12px;
+  letter-spacing: -0.6px;
+  line-height: normal;
+}
+
+.home .dream-destinations-2 {
+  margin-left: 0.2px;
+  width: 239px;
+  height: 50px;
+  margin-top: 7px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #495057;
+  font-size: 18px;
+  letter-spacing: -0.9px;
+  line-height: 25px;
+}
+
+.home .blog-4 {
+  margin-top: 51px;
+  width: 275.22px;
+  height: 450px;
+  margin-left: 11.4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home .text-wrapper-6 {
+  margin-left: 0.2px;
+  width: 269px;
+  height: 60px;
+  margin-top: 15px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #6c757d;
+  font-size: 12px;
+  letter-spacing: -0.6px;
+  line-height: 20px;
+}
+
+.home .title-blog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1062px;
+  height: 113px;
+}
+
+.home .text-wrapper-7 {
+  position: absolute;
+  top: 93px;
+  left: 3px;
+  width: 1055px;
+  color: #000000;
+  white-space: nowrap;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: -0.6px;
+  line-height: 20px;
+}
+
+.home .text-wrapper-8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100px;
+  display: flex;
+  align-items: flex-end;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: -2.4px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+.home .about {
+  top: 797px;
+  left: 150px;
+  width: 1139px;
+  height: 356px;
+  gap: 55px;
+  position: absolute;
+  display: flex;
+}
+
+.home .situs-web-portofolio {
+  width: 624px;
+  height: 356px;
+  aspect-ratio: 1.75;
+}
+
+.home .abt-me-group {
+  width: 464.03px;
+  height: 269.74px;
+  position: relative;
+}
+
+.home .text-wrapper-9 {
+  top: 0;
+  left: 1px;
+  width: 200px;
+  height: 79px;
+  align-items: flex-end;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #000000;
+  font-size: 48px;
+  letter-spacing: -2.4px;
+  line-height: 100px;
+  white-space: nowrap;
+  position: absolute;
+  display: flex;
+}
+
+.home .i-m-an-informatics {
+  position: absolute;
+  top: 67px;
+  left: 0;
+  width: 460px;
+  color: #000000;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: -0.6px;
+  line-height: 20px;
+}
+
+.home .blog-slider {
+  position: absolute;
+  top: 0;
+  left: -273px;
+  width: 1905px;
+  height: 740px;
+}
+
+.home .situs-web-portofolio-2 {
+  position: absolute;
+  top: 0;
+  left: 273px;
+  width: 1440px;
+  height: 740px;
+  aspect-ratio: 2.57;
+  object-fit: cover;
+}
+
+.home .group-3 {
+  position: absolute;
+  top: 331px;
+  left: 423px;
+  width: 1142px;
+  height: 316px;
+  display: flex;
+  gap: 98px;
+}
+
+.home .benedict-amadeus {
+  width: 526px;
+  height: 316px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 96px;
+  letter-spacing: -4.8px;
+  line-height: 100px;
+}
+
+.home .text-wrapper-10 {
+  font-weight: 300;
+  letter-spacing: -4.61px;
+}
+
+.home .text-wrapper-11 {
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  letter-spacing: -4.61px;
+}
+
+.home .text-wrapper-12 {
+  margin-top: 185px;
+  width: 514px;
+  height: 100px;
+  color: #e5e5e5;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: -0.6px;
+  line-height: 20px;
+}
+
+.home .header {
+  height: 100px;
+  top: -10px;
+  display: flex;
+  background-color: transparent;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.home .group-4 {
+  width: 1440px;
+  height: 100px;
+  position: relative;
+}
+
+.home .header-BG {
+  top: 10px;
+  height: 80px;
+  background-color: #0000004c;
+  position: absolute;
+  width: 1440px;
+  left: 0;
+}
+
+.home .menus {
+  position: absolute;
+  top: 0;
+  left: 945px;
+  width: 342px;
+  height: 100px;
+  display: flex;
+}
+
+.home .text-wrapper-13 {
+  display: flex;
+  align-items: center;
+  width: 44.02px;
+  height: 99px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: -1.6px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-14 {
+  display: flex;
+  align-items: center;
+  width: 39.3px;
+  height: 99px;
+  margin-left: 52.2px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #e5e5e5;
+  font-size: 16px;
+  letter-spacing: -1.6px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-15 {
+  display: flex;
+  align-items: center;
+  width: 34.59px;
+  height: 99px;
+  margin-left: 51.9px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #e5e5e5;
+  font-size: 16px;
+  letter-spacing: -1.6px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-16 {
+  display: flex;
+  align-items: center;
+  margin-top: 1px;
+  width: 59.74px;
+  height: 99px;
+  margin-left: 52.1px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #e5e5e5;
+  font-size: 16px;
+  letter-spacing: -1.6px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+.home .element {
+  position: absolute;
+  top: 23px;
+  left: 150px;
+  width: 54px;
+  height: 54px;
+  aspect-ratio: 0.99;
+  object-fit: cover;
+}
+
+.home .footer {
+  top: 2691px;
+  width: 1442px;
+  background-color: transparent;
+  position: absolute;
+  left: 0;
+  height: 374px;
+}
+
+.home .footer-bg {
+  top: 0;
+  width: 1440px;
+  background-color: #212529;
+  position: absolute;
+  left: 0;
+  height: 374px;
+}
+
+.home .group-5 {
+  position: absolute;
+  top: 47px;
+  left: 150px;
+  width: 301px;
+  height: 149px;
+}
+
+.home .benedictsandro-gmail {
+  position: absolute;
+  top: 96px;
+  left: 0;
+  width: 261px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #e5e5e5;
+  font-size: 16px;
+  letter-spacing: -0.8px;
+  line-height: 30px;
+}
+
+.home .contact-me {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 150px);
+  width: 297px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: -2.4px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-17 {
+  font-weight: 500;
+  letter-spacing: -1.15px;
+}
+
+.home .text-wrapper-18 {
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  letter-spacing: -1.15px;
+}
+
+.home .group-6 {
+  position: absolute;
+  width: 163px;
+  height: 136px;
+  top: 47px;
+  left: 1116px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.home .div-wrapper {
+  margin-left: 2px;
+  width: 165px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+}
+
+.home .text-wrapper-19 {
+  width: 163px;
+  height: 84px;
+  margin-left: -2px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 48px;
+  text-align: right;
+  letter-spacing: -2.4px;
+  line-height: 100px;
+  white-space: nowrap;
+}
+
+.home .group-7 {
+  margin-left: 47px;
+  width: 116px;
+  display: flex;
+  gap: 12px;
+}
+
+.home .li {
+  width: 27px;
+  height: 26px;
+  aspect-ratio: 1.02;
+  object-fit: cover;
+}
+
+.home .yt {
+  width: 39px;
+  height: 26px;
+  aspect-ratio: 1.49;
+  object-fit: cover;
+}
+
+.home .ig {
+  width: 26px;
+  height: 26px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.home .copyright {
+  position: absolute;
+  top: 291px;
+  left: 581px;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 400;
+  color: #e5e5e5;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: -0.6px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-20 {
+  font-weight: 300;
+  letter-spacing: -0.07px;
+}
+
+.home .text-wrapper-21 {
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  letter-spacing: -0.07px;
+}

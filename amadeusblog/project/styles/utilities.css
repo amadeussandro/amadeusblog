@@ -1,0 +1,25 @@
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.mt-4 {
+  margin-top: 32px;
+}
+
+/* GLOBAL LINK STYLE */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+}
+
+/* GLOBAL HOVER EFFECT */
+a:hover {
+  opacity: 0.8;
+  transform: translateY(-2px);
+}

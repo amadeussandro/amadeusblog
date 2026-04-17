@@ -1,0 +1,37 @@
+/* =========================
+   CONTAINER SYSTEM
+========================= */
+.container {
+  width: 100%;
+  max-width: 1200px; /* 🔥 global width */
+  margin: 0 auto; /* center */
+  padding: 0 20px; /* spacing kiri kanan */
+}
+.section {
+  padding: 40px 0;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+/* responsive basic */
+@media (max-width: 1024px) {
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-4 {
+    grid-template-columns: 1fr;
+  }
+}
