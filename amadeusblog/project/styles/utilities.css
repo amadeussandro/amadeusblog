@@ -93,3 +93,9 @@
     text-align: center;
   }
 }
+
+
+.text-justify {
+  text-align: justify;
+  line-height: 1.6;
+}
